@@ -1,0 +1,46 @@
+<H1>IPv4 és IPv6 dualstack</H1>
+<H2>Ebben a feladatban egyszerre használunk IPv4 és IPv6 címteret. A két rendszer együttes működését modellezzük le.</H2>
+<p>Állítsa be a következő paramétereket az eszközökön és végberendezéseken!</p>
+
+<H3>Hálózati eszközök beállításai:</H3>
+<DL>
+<LI>Állítsa be az eszközök nevét a topológia ábra alapján!
+<LI>Állítsa be a hibás parancsok feloldásának tiltását!
+<LI>Állítsa be a naplóüzenetek és parancsok szétválasztását!
+<LI>Ahol szükséges, ott kapcsolja fel az interface-ket!
+</DL>
+
+<H3>Router beállítások:</H3>
+<H4>IPv4</H4>
+<DL>
+<LI>Mind a két interface kapja a hozzá tartozó hálózat első kiosztható címét!
+<LI>Kapcsolja fel az interface-t!
+</DL>
+<H4>IPv6</H4>
+<DL>
+<LI>Engedélyezze az IPv6 alapú forgalomirányítást!
+<LI>Engedélyezze az IPv6 forgalmat az interface-ken!
+<LI>Állítson be FE80::1 címet az interface-ken!
+<LI>Mind a két interface kapja a hozzá tartozó hálózat első kiosztható címét!
+</DL>
+
+<H3>Switchek beállítása:</H3>
+<DL>
+<LI>Állítsa be az alhálózat második kiosztható címét a felügyeleti interface címeként!
+<LI>Állítson be alapértelmezett átjárót!
+</DL>
+
+<H4>IPv6 alapon a switchek nem konfigurálhatóak!</H4>
+
+<H3>Szerver és PC-k</H3>
+<DL>
+<LI>A szerver kapja IPv4 alapon a harmadik, IPv6 alapon a második kiosztható címet!
+<LI>A PC-k számozásuk alapján övekvő rendbne kapják a következő kiosztható címeket!
+<LI>IPv6 alapon minden gépen állítsa a router adatkapcsolati szinten helyi címét alapértelmezett átjárónak!
+</DL>
+
+<H3>A hálózati eszközökön mentse el a beállításokat!</H3>
+
+<p>Ellenőrizze munkáját a ping parancs segítségével! Minden eszköznek el kell érni egymást!</p>
+
+<H2>Jó munkát!</H2>
