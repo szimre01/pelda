@@ -9,7 +9,7 @@
 <LI>Állítsa be a naplóüzenetek és parancsok szétválasztását!
 <LI>Ahol szükséges, ott kapcsolja fel az interface-ket!
 </DL>
-
+<HR>
 <H3>Router beállítások:</H3>
 <H4>IPv4</H4>
 <DL>
@@ -44,3 +44,4 @@
 <p>Ellenőrizze munkáját a ping parancs segítségével! Minden eszköznek el kell érni egymást!</p>
 
 <H2>Jó munkát!</H2>
+
